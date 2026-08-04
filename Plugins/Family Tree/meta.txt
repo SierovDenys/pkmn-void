@@ -1,0 +1,6 @@
+﻿Name       = Family Tree
+Version    = 2.0
+Essentials = 21.1
+Website	   = https://www.pokecommunity.com/showthread.php?t=339384
+Requires   = Modular UI Scenes
+Credits    = FL

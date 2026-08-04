@@ -1,0 +1,1855 @@
+#-------------------------------
+[MEGAHORN]
+TotalPP = 12
+#-------------------------------
+[ATTACKORDER]
+TotalPP = 16
+#-------------------------------
+[BUGBUZZ]
+TotalPP = 12
+Description = The user vibrates its wings to generate a sound wave. It may also lower the target's Sp. Def stat.
+#-------------------------------
+[FIRSTIMPRESSION]
+Power = 100
+TotalPP = 12
+#-------------------------------
+[POLLENPUFF]
+TotalPP = 16
+#-------------------------------
+[LEECHLIFE]
+TotalPP = 12
+#-------------------------------
+[LUNGE]
+TotalPP = 16
+#-------------------------------
+[XSCISSOR]
+TotalPP = 16
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+#-------------------------------
+[SIGNALBEAM]
+TotalPP = 16
+#-------------------------------
+[SKITTERSMACK]
+TotalPP = 12
+#-------------------------------
+[SILVERWIND]
+TotalPP = 8
+Flags = CanProtect,CanMirrorMove,Wind
+#-------------------------------
+[FELLSTINGER]
+TotalPP = 20
+#-------------------------------
+[FURYCUTTER]
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+#-------------------------------
+[DEFENDORDER]
+TotalPP = 12
+#-------------------------------
+[HEALORDER]
+TotalPP = 12
+#-------------------------------
+[SPIDERWEB]
+TotalPP = 12
+#-------------------------------
+[STRINGSHOT]
+TotalPP = 20
+#-------------------------------
+[HYPERSPACEFURY]
+TotalPP = 8
+#-------------------------------
+[FOULPLAY]
+TotalPP = 16
+#-------------------------------
+[FIERYWRATH]
+TotalPP = 12
+#-------------------------------
+[DARKESTLARIAT]
+TotalPP = 12
+#-------------------------------
+[NIGHTDAZE]
+TotalPP = 12
+#-------------------------------
+[CRUNCH]
+TotalPP = 16
+#-------------------------------
+[DARKPULSE]
+TotalPP = 16
+#-------------------------------
+[FALSESURRENDER]
+TotalPP = 12
+#-------------------------------
+[JAWLOCK]
+TotalPP = 12
+#-------------------------------
+[THROATCHOP]
+TotalPP = 16
+#-------------------------------
+[WICKEDBLOW]
+Power = 75
+TotalPP = 8
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome,Punching
+#-------------------------------
+[LASHOUT]
+TotalPP = 8
+#-------------------------------
+[NIGHTSLASH]
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate,Slicing
+#-------------------------------
+[SUCKERPUNCH]
+TotalPP = 8
+#-------------------------------
+[ASSURANCE]
+TotalPP = 12
+#-------------------------------
+[BITE]
+TotalPP = 20
+#-------------------------------
+[THIEF]
+TotalPP = 20
+#-------------------------------
+[SNARL]
+TotalPP = 16
+#-------------------------------
+[PAYBACK]
+TotalPP = 12
+#-------------------------------
+[BEATUP]
+TotalPP = 12
+#-------------------------------
+[FLING]
+TotalPP = 12
+#-------------------------------
+[POWERTRIP]
+TotalPP = 12
+#-------------------------------
+[PUNISHMENT]
+TotalPP = 8
+#-------------------------------
+[DARKVOID]
+TotalPP = 12
+#-------------------------------
+[EMBARGO]
+TotalPP = 16
+#-------------------------------
+[FLATTER]
+TotalPP = 16
+#-------------------------------
+[HONECLAWS]
+TotalPP = 16
+#-------------------------------
+[MEMENTO]
+TotalPP = 12
+#-------------------------------
+[OBSTRUCT]
+TotalPP = 12
+#-------------------------------
+[QUASH]
+TotalPP = 16
+#-------------------------------
+[SNATCH]
+TotalPP = 12
+#-------------------------------
+[SWITCHEROO]
+TotalPP = 12
+#-------------------------------
+[TORMENT]
+TotalPP = 16
+#-------------------------------
+[ETERNABEAM]
+TotalPP = 8
+#-------------------------------
+[DRAGONENERGY]
+TotalPP = 8
+#-------------------------------
+[ROAROFTIME]
+TotalPP = 8
+#-------------------------------
+[DRACOMETEOR]
+TotalPP = 8
+#-------------------------------
+[OUTRAGE]
+TotalPP = 12
+#-------------------------------
+[CLANGINGSCALES]
+TotalPP = 8
+#-------------------------------
+[COREENFORCER]
+TotalPP = 12
+#-------------------------------
+[DRAGONRUSH]
+TotalPP = 12
+#-------------------------------
+[DYNAMAXCANNON]
+TotalPP = 8
+#-------------------------------
+[SPACIALREND]
+TotalPP = 8
+#-------------------------------
+[DRAGONHAMMER]
+TotalPP = 16
+#-------------------------------
+[DRAGONPULSE]
+TotalPP = 12
+#-------------------------------
+[DRAGONCLAW]
+TotalPP = 16
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+#-------------------------------
+[BREAKINGSWIPE]
+TotalPP = 16
+#-------------------------------
+[DRAGONTAIL]
+TotalPP = 12
+#-------------------------------
+[DRAGONDARTS]
+TotalPP = 12
+#-------------------------------
+[DUALCHOP]
+TotalPP = 16
+#-------------------------------
+[TWISTER]
+Flags = CanProtect,CanMirrorMove,Wind
+#-------------------------------
+[DRAGONRAGE]
+TotalPP = 12
+#-------------------------------
+[CLANGOROUSSOUL]
+TotalPP = 8
+#-------------------------------
+[BOLTSTRIKE]
+TotalPP = 8
+#-------------------------------
+[VOLTTACKLE]
+TotalPP = 16
+Flags = Contact,CanProtect,CanMirrorMove,ElectrocuteUser
+#-------------------------------
+[ZAPCANNON]
+TotalPP = 8
+#-------------------------------
+[AURAWHEEL]
+TotalPP = 12
+#-------------------------------
+[THUNDER]
+TotalPP = 12
+#-------------------------------
+[FUSIONBOLT]
+TotalPP = 8
+#-------------------------------
+[PLASMAFISTS]
+TotalPP = 16
+#-------------------------------
+[THUNDERBOLT]
+TotalPP = 16
+#-------------------------------
+[WILDCHARGE]
+TotalPP = 16
+Flags = Contact,CanProtect,CanMirrorMove,ElectrocuteUser
+#-------------------------------
+[BOLTBEAK]
+TotalPP = 12
+#-------------------------------
+[DISCHARGE]
+TotalPP = 16
+#-------------------------------
+[OVERDRIVE]
+TotalPP = 12
+#-------------------------------
+[THUNDERCAGE]
+TotalPP = 16
+#-------------------------------
+[ZINGZAP]
+TotalPP = 12
+#-------------------------------
+[THUNDERPUNCH]
+TotalPP = 16
+#-------------------------------
+[SPARK]
+Flags = Contact,CanProtect,CanMirrorMove,ElectrocuteUser
+#-------------------------------
+[THUNDERFANG]
+TotalPP = 16
+#-------------------------------
+[ELECTROWEB]
+TotalPP = 16
+#-------------------------------
+[CHARGEBEAM]
+TotalPP = 12
+#-------------------------------
+[THUNDERSHOCK]
+TotalPP = 20
+#-------------------------------
+[ELECTROBALL]
+TotalPP = 12
+#-------------------------------
+[EERIEIMPULSE]
+TotalPP = 16
+#-------------------------------
+[ELECTRICTERRAIN]
+TotalPP = 12
+#-------------------------------
+[IONDELUGE]
+TotalPP = 20
+#-------------------------------
+[MAGNETRISE]
+TotalPP = 12
+#-------------------------------
+[LIGHTOFRUIN]
+TotalPP = 8
+#-------------------------------
+[FLEURCANNON]
+TotalPP = 8
+#-------------------------------
+[MISTYEXPLOSION]
+TotalPP = 8
+#-------------------------------
+[MOONBLAST]
+TotalPP = 16
+EffectChance = 10
+#-------------------------------
+[PLAYROUGH]
+TotalPP = 12
+#-------------------------------
+[STRANGESTEAM]
+TotalPP = 12
+#-------------------------------
+[DAZZLINGGLEAM]
+TotalPP = 12
+#-------------------------------
+[SPIRITBREAK]
+TotalPP = 16
+#-------------------------------
+[DRAININGKISS]
+TotalPP = 12
+#-------------------------------
+[DISARMINGVOICE]
+TotalPP = 16
+#-------------------------------
+[FAIRYWIND]
+TotalPP = 20
+Flags = CanProtect,CanMirrorMove,Wind
+#-------------------------------
+[NATURESMADNESS]
+TotalPP = 12
+#-------------------------------
+[BABYDOLLEYES]
+TotalPP = 20
+#-------------------------------
+[CRAFTYSHIELD]
+TotalPP = 12
+#-------------------------------
+[DECORATE]
+TotalPP = 16
+#-------------------------------
+[FAIRYLOCK]
+TotalPP = 12
+#-------------------------------
+[FLORALHEALING]
+TotalPP = 12
+#-------------------------------
+[FLOWERSHIELD]
+TotalPP = 12
+#-------------------------------
+[GEOMANCY]
+TotalPP = 12
+#-------------------------------
+[MISTYTERRAIN]
+TotalPP = 12
+#-------------------------------
+[MOONLIGHT]
+TotalPP = 8
+#-------------------------------
+[SWEETKISS]
+TotalPP = 12
+#-------------------------------
+[METEORASSAULT]
+TotalPP = 8
+#-------------------------------
+[HIGHJUMPKICK]
+TotalPP = 12
+#-------------------------------
+[CLOSECOMBAT]
+TotalPP = 8
+#-------------------------------
+[FOCUSBLAST]
+TotalPP = 8
+#-------------------------------
+[SUPERPOWER]
+TotalPP = 8
+#-------------------------------
+[CROSSCHOP]
+TotalPP = 8
+#-------------------------------
+[DYNAMICPUNCH]
+TotalPP = 8
+#-------------------------------
+[FLYINGPRESS]
+TotalPP = 12
+#-------------------------------
+[HAMMERARM]
+TotalPP = 12
+#-------------------------------
+[JUMPKICK]
+TotalPP = 12
+#-------------------------------
+[SACREDSWORD]
+TotalPP = 16
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+#-------------------------------
+[THUNDEROUSKICK]
+TotalPP = 12
+#-------------------------------
+[SECRETSWORD]
+TotalPP = 12
+Flags = CanProtect,CanMirrorMove,CannotMetronome,Slicing
+#-------------------------------
+[SKYUPPERCUT]
+TotalPP = 16
+#-------------------------------
+[BODYPRESS]
+TotalPP = 12
+Description = The user slams its body into the target. Deals more damage with a higher Defense stat.
+#-------------------------------
+[BRICKBREAK]
+TotalPP = 16
+#-------------------------------
+[DRAINPUNCH]
+TotalPP = 12
+#-------------------------------
+[VITALTHROW]
+TotalPP = 12
+#-------------------------------
+[WAKEUPSLAP]
+TotalPP = 12
+#-------------------------------
+[CIRCLETHROW]
+TotalPP = 12
+#-------------------------------
+[FORCEPALM]
+TotalPP = 12
+#-------------------------------
+[REVENGE]
+TotalPP = 12
+#-------------------------------
+[ROLLINGKICK]
+TotalPP = 16
+#-------------------------------
+[STORMTHROW]
+TotalPP = 12
+#-------------------------------
+[KARATECHOP]
+TotalPP = 20
+#-------------------------------
+[MACHPUNCH]
+TotalPP = 20
+#-------------------------------
+[ROCKSMASH]
+TotalPP = 16
+#-------------------------------
+[VACUUMWAVE]
+TotalPP = 20
+#-------------------------------
+[DOUBLEKICK]
+TotalPP = 20
+#-------------------------------
+[TRIPLEKICK]
+TotalPP = 12
+#-------------------------------
+[FINALGAMBIT]
+TotalPP = 8
+#-------------------------------
+[REVERSAL]
+TotalPP = 16
+#-------------------------------
+[COACHING]
+TotalPP = 12
+#-------------------------------
+[DETECT]
+TotalPP = 8
+#-------------------------------
+[MATBLOCK]
+TotalPP = 12
+#-------------------------------
+[NORETREAT]
+TotalPP = 8
+#-------------------------------
+[OCTOLOCK]
+TotalPP = 16
+#-------------------------------
+[QUICKGUARD]
+TotalPP = 16
+#-------------------------------
+[VCREATE]
+TotalPP = 8
+#-------------------------------
+[BLASTBURN]
+TotalPP = 8
+#-------------------------------
+[ERUPTION]
+TotalPP = 8
+#-------------------------------
+[MINDBLOWN]
+TotalPP = 8
+#-------------------------------
+[SHELLTRAP]
+TotalPP = 8
+#-------------------------------
+[BLUEFLARE]
+TotalPP = 8
+#-------------------------------
+[BURNUP]
+TotalPP = 8
+#-------------------------------
+[OVERHEAT]
+TotalPP = 8
+#-------------------------------
+[FLAREBLITZ]
+TotalPP = 16
+Description = The user cloaks itself in fire and charges at the foe. The user takes damage and may burn the target.
+#-------------------------------
+[PYROBALL]
+TotalPP = 8
+#-------------------------------
+[FIREBLAST]
+TotalPP = 8
+#-------------------------------
+[FUSIONFLARE]
+TotalPP = 8
+#-------------------------------
+[INFERNO]
+TotalPP = 8
+#-------------------------------
+[MAGMASTORM]
+TotalPP = 8
+#-------------------------------
+[SACREDFIRE]
+TotalPP = 8
+#-------------------------------
+[SEARINGSHOT]
+TotalPP = 8
+#-------------------------------
+[HEATWAVE]
+TotalPP = 12
+Flags = CanProtect,CanMirrorMove,Wind
+#-------------------------------
+[FLAMETHROWER]
+TotalPP = 16
+#-------------------------------
+[BLAZEKICK]
+TotalPP = 12
+#-------------------------------
+[FIERYDANCE]
+TotalPP = 12
+#-------------------------------
+[FIRELASH]
+Power = 90
+TotalPP = 16
+#-------------------------------
+[FIREPLEDGE]
+TotalPP = 12
+#-------------------------------
+[LAVAPLUME]
+TotalPP = 16
+#-------------------------------
+[FIREPUNCH]
+TotalPP = 16
+#-------------------------------
+[MYSTICALFIRE]
+TotalPP = 12
+#-------------------------------
+[BURNINGJEALOUSY]
+TotalPP = 8
+#-------------------------------
+[FLAMEBURST]
+TotalPP = 16
+#-------------------------------
+[FIREFANG]
+TotalPP = 16
+#-------------------------------
+[FLAMEWHEEL]
+TotalPP = 20
+#-------------------------------
+[INCINERATE]
+TotalPP = 16
+#-------------------------------
+[EMBER]
+TotalPP = 20
+#-------------------------------
+[FIRESPIN]
+TotalPP = 16
+#-------------------------------
+[HEATCRASH]
+TotalPP = 12
+#-------------------------------
+[SUNNYDAY]
+TotalPP = 8
+#-------------------------------
+[WILLOWISP]
+TotalPP = 16
+#-------------------------------
+[SKYATTACK]
+TotalPP = 8
+#-------------------------------
+[BRAVEBIRD]
+TotalPP = 16
+#-------------------------------
+[DRAGONASCENT]
+TotalPP = 8
+#-------------------------------
+[HURRICANE]
+TotalPP = 12
+Flags = CanProtect,CanMirrorMove,Wind
+#-------------------------------
+[AEROBLAST]
+TotalPP = 8
+#-------------------------------
+[BEAKBLAST]
+Power = 120
+TotalPP = 16
+#-------------------------------
+[FLY]
+TotalPP = 16
+#-------------------------------
+[BOUNCE]
+TotalPP = 8
+#-------------------------------
+[OBLIVIONWING]
+TotalPP = 12
+#-------------------------------
+[AIRSLASH]
+TotalPP = 16
+Flags = CanProtect,CanMirrorMove,Slicing
+#-------------------------------
+[AERIALACE]
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+#-------------------------------
+[AIRCUTTER]
+TotalPP = 20
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate,Slicing,Wind
+#-------------------------------
+[SKYDROP]
+TotalPP = 12
+#-------------------------------
+[WINGATTACK]
+TotalPP = 20
+#-------------------------------
+[ACROBATICS]
+TotalPP = 16
+#-------------------------------
+[DUALWINGBEAT]
+TotalPP = 12
+#-------------------------------
+[GUST]
+TotalPP = 20
+Flags = CanProtect,CanMirrorMove,Wind
+#-------------------------------
+[PECK]
+TotalPP = 20
+#-------------------------------
+[DEFOG]
+TotalPP = 16
+#-------------------------------
+[FEATHERDANCE]
+TotalPP = 16
+#-------------------------------
+[ROOST]
+TotalPP = 8
+#-------------------------------
+[TAILWIND]
+TotalPP = 16
+Flags = Wind
+#-------------------------------
+[ASTRALBARRAGE]
+Power = 110
+TotalPP = 8
+#-------------------------------
+[SHADOWFORCE]
+TotalPP = 8
+#-------------------------------
+[POLTERGEIST]
+TotalPP = 8
+#-------------------------------
+[MOONGEISTBEAM]
+TotalPP = 8
+#-------------------------------
+[PHANTOMFORCE]
+TotalPP = 12
+#-------------------------------
+[SPECTRALTHIEF]
+TotalPP = 12
+#-------------------------------
+[SHADOWBONE]
+TotalPP = 12
+#-------------------------------
+[SHADOWBALL]
+TotalPP = 16
+#-------------------------------
+[SPIRITSHACKLE]
+Power = 90
+TotalPP = 12
+#-------------------------------
+[SHADOWCLAW]
+TotalPP = 16
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate,Slicing
+#-------------------------------
+[HEX]
+TotalPP = 12
+#-------------------------------
+[OMINOUSWIND]
+TotalPP = 8
+Flags = CanProtect,CanMirrorMove,Wind
+#-------------------------------
+[SHADOWSNEAK]
+TotalPP = 20
+#-------------------------------
+[ASTONISH]
+TotalPP = 16
+#-------------------------------
+[LICK]
+TotalPP = 20
+#-------------------------------
+[NIGHTSHADE]
+TotalPP = 16
+#-------------------------------
+[CONFUSERAY]
+TotalPP = 12
+#-------------------------------
+[CURSE]
+TotalPP = 12
+#-------------------------------
+[DESTINYBOND]
+TotalPP = 8
+#-------------------------------
+[GRUDGE]
+TotalPP = 8
+#-------------------------------
+[NIGHTMARE]
+TotalPP = 16
+#-------------------------------
+[SPITE]
+TotalPP = 12
+#-------------------------------
+[FRENZYPLANT]
+TotalPP = 8
+#-------------------------------
+[LEAFSTORM]
+TotalPP = 8
+#-------------------------------
+[SOLARBLADE]
+TotalPP = 12
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+#-------------------------------
+[PETALDANCE]
+TotalPP = 12
+#-------------------------------
+[POWERWHIP]
+TotalPP = 12
+#-------------------------------
+[SEEDFLARE]
+TotalPP = 8
+#-------------------------------
+[SOLARBEAM]
+TotalPP = 12
+#-------------------------------
+[WOODHAMMER]
+TotalPP = 16
+#-------------------------------
+[ENERGYBALL]
+TotalPP = 12
+#-------------------------------
+[LEAFBLADE]
+TotalPP = 16
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate,Slicing
+#-------------------------------
+[PETALBLIZZARD]
+TotalPP = 16
+Flags = CanProtect,CanMirrorMove,Wind
+#-------------------------------
+[APPLEACID]
+Power = 90
+TotalPP = 12
+#-------------------------------
+[DRUMBEATING]
+TotalPP = 12
+#-------------------------------
+[GRASSPLEDGE]
+TotalPP = 12
+#-------------------------------
+[GRAVAPPLE]
+Power = 90
+TotalPP = 12
+#-------------------------------
+[SEEDBOMB]
+TotalPP = 16
+#-------------------------------
+[GIGADRAIN]
+TotalPP = 12
+#-------------------------------
+[HORNLEECH]
+TotalPP = 12
+#-------------------------------
+[GRASSYGLIDE]
+Power = 55
+#-------------------------------
+[TROPKICK]
+Power = 85
+TotalPP = 16
+#-------------------------------
+[LEAFTORNADO]
+TotalPP = 12
+#-------------------------------
+[NEEDLEARM]
+TotalPP = 16
+#-------------------------------
+[RAZORLEAF]
+TotalPP = 20
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate,Slicing
+#-------------------------------
+[VINEWHIP]
+TotalPP = 20
+#-------------------------------
+[BRANCHPOKE]
+TotalPP = 20
+#-------------------------------
+[LEAFAGE]
+TotalPP = 20
+#-------------------------------
+[MEGADRAIN]
+TotalPP = 16
+#-------------------------------
+[SNAPTRAP]
+Type = STEEL
+TotalPP = 16
+#-------------------------------
+[BULLETSEED]
+TotalPP = 20
+#-------------------------------
+[ABSORB]
+TotalPP = 20
+#-------------------------------
+[AROMATHERAPY]
+TotalPP = 8
+#-------------------------------
+[COTTONGUARD]
+TotalPP = 12
+#-------------------------------
+[COTTONSPORE]
+TotalPP = 20
+#-------------------------------
+[GRASSWHISTLE]
+TotalPP = 16
+#-------------------------------
+[GRASSYTERRAIN]
+TotalPP = 12
+#-------------------------------
+[JUNGLEHEALING]
+TotalPP = 12
+#-------------------------------
+[LEECHSEED]
+TotalPP = 12
+#-------------------------------
+[SLEEPPOWDER]
+TotalPP = 16
+#-------------------------------
+[SPORE]
+TotalPP = 16
+#-------------------------------
+[STRENGTHSAP]
+TotalPP = 12
+#-------------------------------
+[STUNSPORE]
+TotalPP = 20
+#-------------------------------
+[SYNTHESIS]
+TotalPP = 8
+#-------------------------------
+[WORRYSEED]
+TotalPP = 12
+#-------------------------------
+[PRECIPICEBLADES]
+TotalPP = 12
+#-------------------------------
+[EARTHQUAKE]
+TotalPP = 12
+#-------------------------------
+[HIGHHORSEPOWER]
+TotalPP = 12
+#-------------------------------
+[EARTHPOWER]
+TotalPP = 12
+#-------------------------------
+[LANDSWRATH]
+TotalPP = 12
+#-------------------------------
+[THOUSANDARROWS]
+TotalPP = 12
+#-------------------------------
+[THOUSANDWAVES]
+TotalPP = 12
+#-------------------------------
+[DIG]
+TotalPP = 12
+#-------------------------------
+[DRILLRUN]
+TotalPP = 12
+#-------------------------------
+[STOMPINGTANTRUM]
+TotalPP = 12
+#-------------------------------
+[SCORCHINGSANDS]
+TotalPP = 12
+#-------------------------------
+[MUDBOMB]
+TotalPP = 12
+#-------------------------------
+[MUDSHOT]
+TotalPP = 16
+#-------------------------------
+[BONEMERANG]
+TotalPP = 12
+#-------------------------------
+[SANDTOMB]
+TotalPP = 16
+#-------------------------------
+[BONERUSH]
+Power = 30
+TotalPP = 12
+#-------------------------------
+[MUDSLAP]
+TotalPP = 12
+#-------------------------------
+[FISSURE]
+TotalPP = 8
+#-------------------------------
+[MAGNITUDE]
+TotalPP = 20
+#-------------------------------
+[MUDSPORT]
+TotalPP = 16
+#-------------------------------
+[ROTOTILLER]
+TotalPP = 12
+#-------------------------------
+[SANDATTACK]
+TotalPP = 16
+#-------------------------------
+[SHOREUP]
+TotalPP = 8
+#-------------------------------
+[FREEZESHOCK]
+TotalPP = 8
+#-------------------------------
+[ICEBURN]
+TotalPP = 8
+#-------------------------------
+[GLACIALLANCE]
+Power = 120
+TotalPP = 8
+#-------------------------------
+[BLIZZARD]
+TotalPP = 8
+Flags = CanProtect,CanMirrorMove,Wind
+#-------------------------------
+[ICEHAMMER]
+TotalPP = 12
+#-------------------------------
+[ICEBEAM]
+TotalPP = 12
+#-------------------------------
+[ICICLECRASH]
+TotalPP = 12
+#-------------------------------
+[ICEPUNCH]
+TotalPP = 16
+#-------------------------------
+[FREEZEDRY]
+EffectChance = 0
+Description = The user rapidly cools the target. This move is also super effective on Water-type Pokémon.
+#-------------------------------
+[GLACIATE]
+TotalPP = 12
+#-------------------------------
+[ICEFANG]
+TotalPP = 16
+#-------------------------------
+[AVALANCHE]
+TotalPP = 12
+#-------------------------------
+[FROSTBREATH]
+TotalPP = 12
+#-------------------------------
+[ICYWIND]
+TotalPP = 16
+Flags = CanProtect,CanMirrorMove,Wind
+#-------------------------------
+[ICESHARD]
+TotalPP = 20
+#-------------------------------
+[POWDERSNOW]
+TotalPP = 20
+#-------------------------------
+[ICICLESPEAR]
+TotalPP = 20
+#-------------------------------
+[TRIPLEAXEL]
+TotalPP = 12
+#-------------------------------
+[SHEERCOLD]
+TotalPP = 8
+#-------------------------------
+[HAIL]
+TotalPP = 12
+#-------------------------------
+[HAZE]
+TotalPP = 20
+#-------------------------------
+[MIST]
+TotalPP = 20
+#-------------------------------
+[EXPLOSION]
+TotalPP = 8
+#-------------------------------
+[SELFDESTRUCT]
+TotalPP = 8
+#-------------------------------
+[GIGAIMPACT]
+TotalPP = 8
+#-------------------------------
+[HYPERBEAM]
+TotalPP = 8
+#-------------------------------
+[BOOMBURST]
+TotalPP = 12
+#-------------------------------
+[LASTRESORT]
+TotalPP = 8
+#-------------------------------
+[SKULLBASH]
+TotalPP = 12
+#-------------------------------
+[DOUBLEEDGE]
+TotalPP = 16
+#-------------------------------
+[HEADCHARGE]
+TotalPP = 16
+#-------------------------------
+[MEGAKICK]
+TotalPP = 8
+#-------------------------------
+[MULTIATTACK]
+TotalPP = 12
+#-------------------------------
+[TECHNOBLAST]
+TotalPP = 8
+#-------------------------------
+[THRASH]
+TotalPP = 12
+#-------------------------------
+[EGGBOMB]
+TotalPP = 12
+#-------------------------------
+[JUDGMENT]
+TotalPP = 12
+#-------------------------------
+[HYPERVOICE]
+TotalPP = 12
+#-------------------------------
+[REVELATIONDANCE]
+Power = 100
+TotalPP = 16
+#-------------------------------
+[UPROAR]
+TotalPP = 12
+#-------------------------------
+[BODYSLAM]
+TotalPP = 16
+#-------------------------------
+[EXTREMESPEED]
+TotalPP = 8
+#-------------------------------
+[HYPERFANG]
+TotalPP = 16
+#-------------------------------
+[RAZORWIND]
+TotalPP = 12
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate,Wind
+#-------------------------------
+[STRENGTH]
+TotalPP = 16
+#-------------------------------
+[TRIATTACK]
+TotalPP = 12
+#-------------------------------
+[CRUSHCLAW]
+TotalPP = 12
+#-------------------------------
+[RELICSONG]
+TotalPP = 12
+#-------------------------------
+[DIZZYPUNCH]
+TotalPP = 12
+#-------------------------------
+[HEADBUTT]
+TotalPP = 16
+#-------------------------------
+[RETALIATE]
+TotalPP = 8
+#-------------------------------
+[SLASH]
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate,Slicing
+#-------------------------------
+[SMELLINGSALTS]
+TotalPP = 12
+#-------------------------------
+[HORNATTACK]
+TotalPP = 20
+#-------------------------------
+[COVET]
+TotalPP = 20
+#-------------------------------
+[HIDDENPOWER]
+TotalPP = 16
+#-------------------------------
+[ROUND]
+TotalPP = 16
+#-------------------------------
+[VISEGRIP]
+TotalPP = 20
+#-------------------------------
+[CUT]
+TotalPP = 20
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+#-------------------------------
+[RAPIDSPIN]
+TotalPP = 20
+#-------------------------------
+[SNORE]
+TotalPP = 16
+#-------------------------------
+[TERRAINPULSE]
+TotalPP = 12
+#-------------------------------
+[WEATHERBALL]
+TotalPP = 12
+#-------------------------------
+[ECHOEDVOICE]
+TotalPP = 16
+#-------------------------------
+[FAKEOUT]
+TotalPP = 12
+#-------------------------------
+[FALSESWIPE]
+TotalPP = 20
+#-------------------------------
+[HOLDBACK]
+TotalPP = 20
+#-------------------------------
+[POUND]
+TotalPP = 20
+#-------------------------------
+[QUICKATTACK]
+TotalPP = 20
+#-------------------------------
+[SCRATCH]
+TotalPP = 20
+#-------------------------------
+[TACKLE]
+TotalPP = 20
+#-------------------------------
+[DOUBLEHIT]
+TotalPP = 12
+#-------------------------------
+[FEINT]
+TotalPP = 12
+#-------------------------------
+[TAILSLAP]
+TotalPP = 12
+#-------------------------------
+[SPIKECANNON]
+TotalPP = 16
+#-------------------------------
+[COMETPUNCH]
+TotalPP = 16
+#-------------------------------
+[FURYSWIPES]
+TotalPP = 16
+#-------------------------------
+[DOUBLESLAP]
+TotalPP = 12
+#-------------------------------
+[CONSTRICT]
+TotalPP = 20
+#-------------------------------
+[BIDE]
+TotalPP = 12
+#-------------------------------
+[CRUSHGRIP]
+TotalPP = 8
+#-------------------------------
+[ENDEAVOR]
+TotalPP = 8
+#-------------------------------
+[FLAIL]
+TotalPP = 16
+#-------------------------------
+[GUILLOTINE]
+TotalPP = 8
+#-------------------------------
+[HORNDRILL]
+TotalPP = 8
+#-------------------------------
+[NATURALGIFT]
+TotalPP = 16
+#-------------------------------
+[PRESENT]
+TotalPP = 16
+#-------------------------------
+[SPITUP]
+TotalPP = 12
+#-------------------------------
+[SUPERFANG]
+TotalPP = 12
+#-------------------------------
+[TRUMPCARD]
+TotalPP = 8
+#-------------------------------
+[WRINGOUT]
+TotalPP = 8
+#-------------------------------
+[ACUPRESSURE]
+TotalPP = 20
+#-------------------------------
+[AFTERYOU]
+TotalPP = 16
+#-------------------------------
+[ATTRACT]
+TotalPP = 16
+#-------------------------------
+[BATONPASS]
+TotalPP = 20
+#-------------------------------
+[BELLYDRUM]
+TotalPP = 12
+#-------------------------------
+[BESTOW]
+TotalPP = 16
+#-------------------------------
+[BLOCK]
+TotalPP = 8
+#-------------------------------
+[CELEBRATE]
+TotalPP = 20
+#-------------------------------
+[CONVERSION]
+TotalPP = 20
+#-------------------------------
+[CONVERSION2]
+TotalPP = 20
+#-------------------------------
+[COURTCHANGE]
+TotalPP = 12
+#-------------------------------
+[DEFENSECURL]
+TotalPP = 20
+#-------------------------------
+[DOUBLETEAM]
+TotalPP = 16
+#-------------------------------
+[ENCORE]
+TotalPP = 8
+#-------------------------------
+[ENDURE]
+TotalPP = 12
+#-------------------------------
+[ENTRAINMENT]
+TotalPP = 16
+#-------------------------------
+[FOCUSENERGY]
+TotalPP = 20
+#-------------------------------
+[FORESIGHT]
+TotalPP = 20
+#-------------------------------
+[GLARE]
+TotalPP = 20
+#-------------------------------
+[GROWL]
+TotalPP = 20
+#-------------------------------
+[GROWTH]
+Type = GRASS
+#-------------------------------
+[HAPPYHOUR]
+TotalPP = 20
+#-------------------------------
+[HARDEN]
+TotalPP = 20
+#-------------------------------
+[HEALBELL]
+TotalPP = 8
+#-------------------------------
+[HOLDHANDS]
+TotalPP = 20
+#-------------------------------
+[HOWL]
+TotalPP = 20
+#-------------------------------
+[LASERFOCUS]
+TotalPP = 20
+#-------------------------------
+[LEER]
+TotalPP = 20
+#-------------------------------
+[LOCKON]
+TotalPP = 8
+#-------------------------------
+[LOVELYKISS]
+TotalPP = 12
+#-------------------------------
+[LUCKYCHANT]
+TotalPP = 20
+#-------------------------------
+[MEANLOOK]
+TotalPP = 8
+#-------------------------------
+[METRONOME]
+TotalPP = 12
+#-------------------------------
+[MILKDRINK]
+TotalPP = 8
+#-------------------------------
+[MIMIC]
+TotalPP = 12
+#-------------------------------
+[MINDREADER]
+TotalPP = 8
+#-------------------------------
+[MINIMIZE]
+TotalPP = 12
+#-------------------------------
+[MORNINGSUN]
+TotalPP = 8
+#-------------------------------
+[NOBLEROAR]
+TotalPP = 20
+#-------------------------------
+[ODORSLEUTH]
+TotalPP = 20
+#-------------------------------
+[PERISHSONG]
+TotalPP = 8
+#-------------------------------
+[PSYCHUP]
+TotalPP = 12
+#-------------------------------
+[RECOVER]
+TotalPP = 8
+#-------------------------------
+[RECYCLE]
+TotalPP = 12
+#-------------------------------
+[REFLECTTYPE]
+TotalPP = 16
+#-------------------------------
+[SAFEGUARD]
+TotalPP = 20
+#-------------------------------
+[SCARYFACE]
+TotalPP = 12
+#-------------------------------
+[SCREECH]
+TotalPP = 20
+#-------------------------------
+[SHARPEN]
+TotalPP = 20
+#-------------------------------
+[SHELLSMASH]
+TotalPP = 16
+#-------------------------------
+[SIMPLEBEAM]
+TotalPP = 16
+#-------------------------------
+[SING]
+TotalPP = 16
+#-------------------------------
+[SLACKOFF]
+TotalPP = 8
+#-------------------------------
+[SLEEPTALK]
+TotalPP = 12
+#-------------------------------
+[SOFTBOILED]
+TotalPP = 8
+#-------------------------------
+[SPLASH]
+TotalPP = 20
+#-------------------------------
+[SPOTLIGHT]
+TotalPP = 16
+#-------------------------------
+[STUFFCHEEKS]
+TotalPP = 12
+#-------------------------------
+[SUBSTITUTE]
+TotalPP = 12
+#-------------------------------
+[SWAGGER]
+TotalPP = 16
+#-------------------------------
+[SWALLOW]
+TotalPP = 12
+#-------------------------------
+[SWORDSDANCE]
+TotalPP = 12
+#-------------------------------
+[TAILWHIP]
+TotalPP = 20
+#-------------------------------
+[TEATIME]
+TotalPP = 12
+#-------------------------------
+[TRANSFORM]
+TotalPP = 12
+#-------------------------------
+[WHIRLWIND]
+Flags = CanMirrorMove,Wind
+#-------------------------------
+[WISH]
+TotalPP = 12
+#-------------------------------
+[WORKUP]
+TotalPP = 20
+#-------------------------------
+[YAWN]
+TotalPP = 12
+#-------------------------------
+[BELCH]
+TotalPP = 12
+#-------------------------------
+[GUNKSHOT]
+TotalPP = 8
+#-------------------------------
+[SLUDGEWAVE]
+TotalPP = 12
+#-------------------------------
+[SHELLSIDEARM]
+TotalPP = 12
+#-------------------------------
+[SLUDGEBOMB]
+TotalPP = 12
+#-------------------------------
+[CROSSPOISON]
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate,Slicing
+#-------------------------------
+[VENOSHOCK]
+TotalPP = 12
+#-------------------------------
+[CLEARSMOG]
+TotalPP = 16
+#-------------------------------
+[POISONFANG]
+TotalPP = 16
+#-------------------------------
+[POISONTAIL]
+TotalPP = 20
+#-------------------------------
+[ACID]
+TotalPP = 20
+#-------------------------------
+[POISONSTING]
+TotalPP = 20
+#-------------------------------
+[BANEFULBUNKER]
+TotalPP = 12
+#-------------------------------
+[CORROSIVEGAS]
+TotalPP = 20
+#-------------------------------
+[GASTROACID]
+TotalPP = 12
+#-------------------------------
+[POISONGAS]
+TotalPP = 20
+#-------------------------------
+[POISONPOWDER]
+TotalPP = 20
+#-------------------------------
+[TOXIC]
+TotalPP = 12
+#-------------------------------
+[TOXICTHREAD]
+Description = The user shoots poisonous threads to poison the target and harshly reducing its Speed stat.
+#-------------------------------
+[PRISMATICLASER]
+TotalPP = 12
+#-------------------------------
+[PSYCHOBOOST]
+TotalPP = 8
+#-------------------------------
+[FUTURESIGHT]
+TotalPP = 12
+#-------------------------------
+[SYNCHRONOISE]
+TotalPP = 12
+#-------------------------------
+[DREAMEATER]
+TotalPP = 16
+#-------------------------------
+[PHOTONGEYSER]
+TotalPP = 8
+#-------------------------------
+[PSYSTRIKE]
+TotalPP = 12
+#-------------------------------
+[FREEZINGGLARE]
+TotalPP = 12
+#-------------------------------
+[PSYCHIC]
+TotalPP = 12
+#-------------------------------
+[PSYCHICFANGS]
+TotalPP = 12
+#-------------------------------
+[EERIESPELL]
+TotalPP = 8
+#-------------------------------
+[EXPANDINGFORCE]
+TotalPP = 12
+#-------------------------------
+[HYPERSPACEHOLE]
+TotalPP = 8
+#-------------------------------
+[PSYSHOCK]
+TotalPP = 12
+#-------------------------------
+[ZENHEADBUTT]
+TotalPP = 16
+#-------------------------------
+[LUSTERPURGE]
+Power = 95
+TotalPP = 8
+#-------------------------------
+[MISTBALL]
+Power = 95
+TotalPP = 8
+#-------------------------------
+[PSYCHOCUT]
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate,Slicing
+#-------------------------------
+[HEARTSTAMP]
+TotalPP = 20
+#-------------------------------
+[CONFUSION]
+TotalPP = 20
+#-------------------------------
+[STOREDPOWER]
+TotalPP = 12
+#-------------------------------
+[PSYWAVE]
+TotalPP = 16
+#-------------------------------
+[AGILITY]
+TotalPP = 20
+#-------------------------------
+[ALLYSWITCH]
+TotalPP = 16
+Description = The user switches places with an ally. This move's chance of failing rises if it is used in succession.
+#-------------------------------
+[GRAVITY]
+TotalPP = 8
+#-------------------------------
+[GUARDSPLIT]
+TotalPP = 12
+#-------------------------------
+[GUARDSWAP]
+TotalPP = 12
+#-------------------------------
+[HEALBLOCK]
+TotalPP = 16
+#-------------------------------
+[HEALPULSE]
+TotalPP = 12
+#-------------------------------
+[HEALINGWISH]
+TotalPP = 12
+#-------------------------------
+[HEARTSWAP]
+TotalPP = 12
+#-------------------------------
+[IMPRISON]
+TotalPP = 12
+#-------------------------------
+[INSTRUCT]
+TotalPP = 16
+#-------------------------------
+[KINESIS]
+TotalPP = 16
+#-------------------------------
+[LIGHTSCREEN]
+TotalPP = 20
+#-------------------------------
+[LUNARDANCE]
+TotalPP = 12
+#-------------------------------
+[MAGICCOAT]
+TotalPP = 16
+#-------------------------------
+[MAGICROOM]
+TotalPP = 12
+#-------------------------------
+[MEDITATE]
+TotalPP = 20
+#-------------------------------
+[MIRACLEEYE]
+TotalPP = 20
+#-------------------------------
+[POWERSPLIT]
+TotalPP = 12
+#-------------------------------
+[POWERSWAP]
+TotalPP = 12
+#-------------------------------
+[POWERTRICK]
+TotalPP = 12
+#-------------------------------
+[PSYCHICTERRAIN]
+TotalPP = 12
+#-------------------------------
+[PSYCHOSHIFT]
+TotalPP = 12
+#-------------------------------
+[REST]
+TotalPP = 8
+#-------------------------------
+[ROLEPLAY]
+TotalPP = 12
+#-------------------------------
+[SKILLSWAP]
+TotalPP = 12
+#-------------------------------
+[SPEEDSWAP]
+TotalPP = 12
+#-------------------------------
+[TELEKINESIS]
+TotalPP = 16
+#-------------------------------
+[TRICK]
+TotalPP = 12
+#-------------------------------
+[TRICKROOM]
+TotalPP = 8
+#-------------------------------
+[WONDERROOM]
+TotalPP = 12
+#-------------------------------
+[HEADSMASH]
+TotalPP = 8
+#-------------------------------
+[ROCKWRECKER]
+TotalPP = 8
+#-------------------------------
+[METEORBEAM]
+TotalPP = 12
+#-------------------------------
+[DIAMONDSTORM]
+TotalPP = 8
+#-------------------------------
+[STONEEDGE]
+TotalPP = 8
+#-------------------------------
+[ROCKSLIDE]
+TotalPP = 12
+#-------------------------------
+[ANCIENTPOWER]
+TotalPP = 8
+#-------------------------------
+[ROCKTOMB]
+TotalPP = 16
+#-------------------------------
+[ROCKTHROW]
+TotalPP = 16
+#-------------------------------
+[SMACKDOWN]
+TotalPP = 16
+#-------------------------------
+[ROCKBLAST]
+TotalPP = 12
+#-------------------------------
+[SANDSTORM]
+Flags = Wind
+#-------------------------------
+[TARSHOT]
+TotalPP = 16
+#-------------------------------
+[WIDEGUARD]
+TotalPP = 12
+#-------------------------------
+[DOOMDESIRE]
+TotalPP = 8
+#-------------------------------
+[STEELBEAM]
+TotalPP = 8
+#-------------------------------
+[STEELROLLER]
+TotalPP = 8
+#-------------------------------
+[BEHEMOTHBASH]
+TotalPP = 8
+#-------------------------------
+[BEHEMOTHBLADE]
+TotalPP = 8
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome,Slicing
+#-------------------------------
+[IRONTAIL]
+TotalPP = 16
+#-------------------------------
+[SUNSTEELSTRIKE]
+TotalPP = 8
+#-------------------------------
+[METEORMASH]
+TotalPP = 12
+#-------------------------------
+[ANCHORSHOT]
+Power = 90
+#-------------------------------
+[FLASHCANNON]
+TotalPP = 12
+#-------------------------------
+[IRONHEAD]
+TotalPP = 16
+EffectChance = 20
+#-------------------------------
+[SMARTSTRIKE]
+TotalPP = 12
+#-------------------------------
+[STEELWING]
+TotalPP = 20
+#-------------------------------
+[DOUBLEIRONBASH]
+TotalPP = 8
+#-------------------------------
+[MIRRORSHOT]
+TotalPP = 12
+#-------------------------------
+[GEARGRIND]
+Power = 60
+Accuracy = 90
+TotalPP = 16
+#-------------------------------
+[METALCLAW]
+TotalPP = 20
+#-------------------------------
+[BULLETPUNCH]
+TotalPP = 20
+#-------------------------------
+[GYROBALL]
+TotalPP = 8
+#-------------------------------
+[HEAVYSLAM]
+TotalPP = 12
+#-------------------------------
+[METALBURST]
+TotalPP = 12
+#-------------------------------
+[AUTOTOMIZE]
+TotalPP = 16
+#-------------------------------
+[IRONDEFENSE]
+TotalPP = 16
+#-------------------------------
+[METALSOUND]
+TotalPP = 20
+#-------------------------------
+[SHIFTGEAR]
+TotalPP = 12
+#-------------------------------
+[HYDROCANNON]
+TotalPP = 8
+#-------------------------------
+[WATERSPOUT]
+TotalPP = 8
+#-------------------------------
+[HYDROPUMP]
+TotalPP = 8
+#-------------------------------
+[ORIGINPULSE]
+TotalPP = 12
+#-------------------------------
+[STEAMERUPTION]
+TotalPP = 8
+#-------------------------------
+[CRABHAMMER]
+Accuracy = 95
+TotalPP = 12
+#-------------------------------
+[AQUATAIL]
+TotalPP = 12
+#-------------------------------
+[MUDDYWATER]
+TotalPP = 12
+#-------------------------------
+[SPARKLINGARIA]
+TotalPP = 12
+#-------------------------------
+[SURF]
+TotalPP = 16
+#-------------------------------
+[FISHIOUSREND]
+Power = 80
+TotalPP = 12
+#-------------------------------
+[LIQUIDATION]
+TotalPP = 12
+#-------------------------------
+[DIVE]
+TotalPP = 12
+#-------------------------------
+[SCALD]
+TotalPP = 16
+#-------------------------------
+[SNIPESHOT]
+Power = 85
+TotalPP = 16
+#-------------------------------
+[WATERPLEDGE]
+TotalPP = 12
+#-------------------------------
+[WATERFALL]
+TotalPP = 16
+#-------------------------------
+[RAZORSHELL]
+TotalPP = 12
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+#-------------------------------
+[BRINE]
+TotalPP = 12
+#-------------------------------
+[OCTAZOOKA]
+TotalPP = 12
+#-------------------------------
+[BUBBLE]
+TotalPP = 20
+#-------------------------------
+[WATERGUN]
+TotalPP = 20
+#-------------------------------
+[CLAMP]
+TotalPP = 16
+#-------------------------------
+[WHIRLPOOL]
+TotalPP = 16
+#-------------------------------
+[SURGINGSTRIKES]
+TotalPP = 8
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome,Punching
+#-------------------------------
+[LIFEDEW]
+TotalPP = 12
+#-------------------------------
+[RAINDANCE]
+TotalPP = 8
+#-------------------------------
+[WATERSPORT]
+TotalPP = 16
+#-------------------------------
+[WITHDRAW]
+TotalPP = 20
