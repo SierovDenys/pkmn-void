@@ -122,3 +122,11 @@ Pokemon = BLASTOISE,63
 [FELIX,Felix]
 LoseText = Ha! Your rhythm's not bad at all.
 Pokemon = SCRAGGY,6
+#-------------------------------
+# Тестовый бот для проверки двойных боёв. Debug map, позиция (004, 007).
+# SkillLevel у YOUNGSTER не задан -> подставляется BaseMoney = 16, то есть ИИ
+# ниже порога medium_skill? (32). Намеренно слабый.
+[YOUNGSTER,Test]
+LoseText = Aw, I wasn't ready!
+Pokemon = RATTATA,8
+Pokemon = PIDGEY,8
