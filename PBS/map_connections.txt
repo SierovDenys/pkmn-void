@@ -1,4 +1,10 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Lappet Town (2) - Route 0 (5)
-2,East,0,5,West,3
+# Debug map (2) - Route 1 (5)
+2,East,0,5,West,0
+# Town 1 (7) - Route 1 (5)
+7,South,48,5,North,0
+# Town 1 (7) - Debug map (2)
+7,South,16,2,North,0
+# Town 1 (7) - Route 0 (6)
+7,North,11,6,South,0

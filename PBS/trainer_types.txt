@@ -399,3 +399,12 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Champion
 VictoryBGM = Battle victory leader
+#-------------------------------
+# Соперник. SkillLevel задан ЯВНО: если поле опустить, движок подставит BaseMoney
+# (см. .development/notes/engine-notes.md). 48 — порог high_skill?, то есть ИИ уже
+# играет всерьёз. Для поздних боёв можно поднять до 100.
+[FELIX]
+Name = Felix
+Gender = Male
+BaseMoney = 20
+SkillLevel = 48

@@ -16,7 +16,9 @@
 |---|---|
 | [design/idea.md](design/idea.md) | Game design document (EN) |
 | [design/idea (ru).md](design/idea%20(ru).md) | он же на русском |
+| [design/storyline.md](design/storyline.md) | **основная линия** — план начала игры, сюжетные квесты, структура актов |
 | [design/quests.md](design/quests.md) | **бэклог сайдквестов** — шаблон, правила проверки, сырые идеи |
+| [design/characters.md](design/characters.md) | сквозные NPC Зоны 1 |
 | [notes/plugins.md](notes/plugins.md) | список установленных плагинов + ссылки, и что ещё присмотрено |
 | [notes/tilesets-sources.md](notes/tilesets-sources.md) | откуда взяты тайлсеты, кредиты авторов |
 | [notes/engine-notes.md](notes/engine-notes.md) | **грабли движка** — автотайлы, terrain tags, кэш плагинов |

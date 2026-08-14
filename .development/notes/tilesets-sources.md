@@ -1,5 +1,5 @@
-Ekat99 - https://www.deviantart.com/ekat99/gallery/77971354/public-pokemon-tilesets
-Magiscarf - https://www.deviantart.com/magiscarf
+- Ekat99 - https://www.deviantart.com/ekat99/gallery/77971354/public-pokemon-tilesets
+- Magiscarf - https://www.deviantart.com/magiscarf
 
 Credits:
 1. Ekat
@@ -14,3 +14,8 @@ Credits:
 10. Aveontrainer
 11. Zein
 12. Thedeadheroalistar
+
+KyleDove Foxowl Vurtax Lennybitao Seiyouh Ross Hawkins OuterPaja Pokémon Reborn Team Pokémon Rejuvenation Team, KioRaka, tRatas
+Buch
+hernandack
+george_

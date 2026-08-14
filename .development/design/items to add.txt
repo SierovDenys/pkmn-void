@@ -1,0 +1,12 @@
+TM:
+Spikes
+Synthesis
+Drain Punch
+Bulk Up
+Rest
+Body Press
+
+Items:
+Air Balloon
+Flame Orb
+King's Rock

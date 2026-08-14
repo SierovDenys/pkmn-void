@@ -137,3 +137,123 @@ XP and "a better item" do not work in Pokémon: XP is self-serve (just walk into
 > * **Rewards must be visible but locked.** A closed gate, a shortcut behind a rockfall, merchant stock on display but unavailable. These advertise the quest themselves without spoiling exploration.  
 > * **Hint the direction, never the contents.** "Something strange was seen near the quarry" preserves discovery; "there is a Larvitar at coordinates X" destroys it.  
 > * **Pokédex area data as a reward** — see a species once, and the dex shows where the rest live. The discovery still belongs to the player.
+
+### **Hidden Abilities as a reward — IMPLEMENTED**
+
+Plugin: `Plugins/Hidden Ability Chance`.
+
+In vanilla Essentials v21 a wild Pokémon **never** gets its Hidden Ability: the index comes from `personalID & 1`, so only 0 or 1. The only source of index 2 in the whole engine is the Ability Patch item. The data exists though — `HiddenAbilities` is defined for 762 of 898 species.
+
+The official games have no flat wild rate either; it is always tied to special content (Dream World, Friend Safari, SOS chains, raids). Hence:
+
+| Condition | Chance |
+|---|---|
+| Ordinary wild | **0** — as in the originals, no device means no Hidden Abilities at all |
+| With the Analyzer | **1/50** — a slow background option |
+| Anomaly zones | set per map in `ANOMALY_MAPS`, takes priority over the Analyzer |
+
+**Key principle:** a chance you cannot detect is worse than no chance at all — without a detector the player would have to catch hundreds and inspect each one. So the base chance is zero, and the mechanic switches on together with the item.
+
+**Where 1/50 comes from.** Converting odds into player time (an encounter every ~15–25 steps, ~30 s per encounter cycle):
+
+| Chance | To meet a Hidden Ability | To get a specific species (6-species zone) |
+|---|---|---|
+| 1/20 | ~10 minutes | ~1 hour |
+| **1/50** | ~25 minutes | ~2.5 hours |
+| 1/100 | ~50 minutes | ~5 hours — a wall, not a reward |
+
+A Hidden Ability is a build component, not cosmetics. Shinies are hunted at 1/4096 precisely because missing one costs nothing; here the player wants a *specific* species with a *specific* ability.
+
+**The lesson from the official games is structural, not numerical:** there, Hidden Abilities always come from a short deliberate loop (a raid, an SOS chain), never from wandering through grass. So the primary sources stay **quests and anomaly zones**, and the Analyzer's 1/50 is the fallback for when a particular species is needed right now.
+
+**Resonance Analyzer** (`:RESONANCEANALYZER`, key item, added to `PBS/items.txt`) does two things: raises the chance and **reveals the Hidden Ability during battle, before catching**. Modelled on the Shiny Charm — owning it is enough.
+
+The name ties into [Q-002], where the source of the "anomalous pulse" turns out to be a Bronzor whose psychic waves resonate through the mine's metalwork. The device picks up that same resonance, so the item and the first quest explain each other.
+
+**Still to do by hand:**
+
+> * **Hand the item out** via an event — naturally a reward for the Professor's Act 1 quest, which also introduces the player to the anomaly theme.  
+> * **Remove Ability Patch from shops.** It currently has an ordinary price of 10000. Sold freely it devalues the chance, the anomaly zones and the quest rewards all at once. Ability Capsule (swaps between 0 and 1 only) is safe to sell — that is the Act 1–2 item.  
+> * **Fill in `ANOMALY_MAPS`** once anomaly maps exist.
+
+## **🕵️ 10\. Government Suspicion Meter**
+
+The protagonist is an undercover Syndicate operative. The meter tracks how interested the Government has become.
+
+### **Principle: an axis of choice, not a penalty**
+
+The standard failure of "wanted" meters is that they only punish — so the player starts avoiding exactly the content the meter exists for. Investigate anomalies → suspicion rises → stop investigating anomalies. The mechanic strangles itself.
+
+So the meter is **two-sided**: Government suspicion rises together with Syndicate trust. This follows from §3 of the concept document — the Syndicate is cold and threatens the player for hesitating, so an unsuspected protagonist is one who is doing a poor job for their employers.
+
+```
+LOW suspicion                      HIGH suspicion
+official access, cheap services,   surveillance, patrols, government
+quiet life                         doors closed
+BUT: Syndicate displeased,         BUT: Syndicate pleased, black
+threats, supplies cut              market, access to their zones
+```
+
+There is no correct slider position — there are two playstyles, each granting and denying something.
+
+### **Gameplay consequences**
+
+All of this is event pages conditioned on "variable >= N". No story writing required.
+
+> * **Patrols and searches.** Agents appear along routes; above a threshold they block transit points and confiscate anomalous samples.  
+> * **Battles.** Agents are the hardest non-Gym trainers, with high `SkillLevel`. Higher suspicion means more encounters but better spoils. This is where the interest in hard battles (§8) plugs in.  
+> * **Access flips.** Government facilities close, Syndicate zones open. Since access is the primary reward currency (§9), this is the strongest lever.  
+> * **Anomaly sites get cordoned off.** Places where the player left traces gain guards and barriers.  
+> * **Locals clam up.** Above a threshold NPCs want no trouble and stop sharing rumours — striking directly at the investigation loop.
+
+### **What moves it**
+
+> * **Raises:** being seen at anomaly sites, taking samples, breaking into facilities, getting caught by a patrol, siding with the Syndicate during events.  
+> * **Lowers:** handing data to the Government (at the cost of Syndicate trust), completing their errands, paying a fixer, and **winning a Badge** — badges act as public legitimacy, which also explains why an undercover operative bothers with the League beyond the prize.
+
+### **Link to the main story — UNDECIDED**
+
+Three options, from tight coupling to full separation:
+
+> * **A. The meter determines the act checkpoint outcome.** Maximum significance, but the main story's outcome starts depending on a system.  
+> * **B. The meter gates access to certain scenes** without changing outcomes.  
+> * **C. The meter affects gameplay only.** Story branches come from explicit choices in events; the meter remains systemic pressure.
+
+**Argument for B or C:** the main story is written by a partner, while the meter is driven by a system owned by the other person. Tight coupling creates a dependency between two people — any rebalancing of the meter starts disturbing someone else's work. The decoupled option is safer for collaboration.
+
+### **Implementation**
+
+One variable and 3–4 thresholds. No new systems. The one thing that needs care is **legibility**: the player must understand where they sit on the meter and what moves it, otherwise consequences read as arbitrary. The journal (`idea.md` §2) already provides the surface for this.
+
+## **🐉 11\. Raids, Small World Events, Rare Rewards**
+
+### **Raids — the machinery already exists, nothing to write**
+
+Deluxe Battle Kit ships a complete raid-boss framework. Verified in the plugin's code:
+
+> * **`Wild Boss Attributes`** — `hp_boost` and `hp_level` (inflated HP), `immunities` and `hasBossImmunity?` (status immunity), `isRaidBoss?`.
+> * **`RaidShield`** — shields, as in Max Raid Battles.
+> * **`battle_rules["raidStyleCapture"]`** and `raidCaptureMode` — Sword/Shield-style capture after the win.
+> * **`pbRegisterPartner(tr_type, tr_name)`** (Essentials core) — an allied trainer in a double battle.
+
+So a "raid" assembles from existing parts: **the player and a partner against a boss with inflated HP, immunities and shields**, with a capture phase at the end. Not a line of custom battle logic.
+
+**The Rival as the connecting figure is a good fit.** He is already described as a confident fighter with deep tactical understanding (`characters.md` §1), so recurring raid participation develops him rather than contradicting him — and gives him a repeatable function beyond duels.
+
+Raids are also the natural source of Hidden Ability Pokémon, exactly as in the official games (see §9).
+
+### **Small random world events — low priority**
+
+> * Purely visual vignettes: two trainers battling in the distance, a Pokémon darting across the path, someone rummaging in the bushes and running off.
+> * **More valuable than it looks:** they fill the gaps between story beats — precisely the hole created by the main story being written by a partner while the world is not.
+> * Implementation: a Parallel Process event plus a random value, or a registry of situations modelled on `HandlerHash`.
+> * **Hard constraint:** a visual vignette must never take control away for more than a couple of seconds, or the "living world" becomes an obstacle.
+
+### **A pseudo-legendary as a hidden quest reward**
+
+The hidden quest — yes. The randomness — with caveats.
+
+> * **Pseudo-legendaries are weak in Act 1.** Beldum knows essentially only Take Down until level 20; Larvitar evolves at 30. Under a hard per-act level cap such a Pokémon is a burden rather than a reward. Not an argument against — it is a long-term investment — but the player must understand what they are taking.
+> * **A random TYPE sits badly in a game where team composition decides fights.** Dratini, Beldum and Larvitar are three different roles. On a pure roll the player cannot plan, and the reward becomes a lottery.
+> * **Better: roll 2–3 candidates, let the player pick one.** Replayability survives — different runs offer different sets — while the choice stays with the player.
+> * **Better still:** which one appears depends on what the player did — faction, biome explored, the outcome of an earlier quest. Then randomness becomes consequence and obeys the "every path leaves a trace" rule.

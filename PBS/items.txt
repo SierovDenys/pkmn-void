@@ -6563,3 +6563,11 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A faded sea chart that shows the way to a certain island.
+#-------------------------------
+[RESONANCEANALYZER]
+Name = Resonance Analyzer
+NamePlural = Resonance Analyzers
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A device built by the Professor. It picks up the faint resonance of Pokémon whose abilities have been altered, and draws them out more often.

@@ -37,3 +37,4 @@
 - Secret Bases Remade: https://eeveeexpo.com/resources/1135/
 - Character Selection: https://eeveeexpo.com/resources/1049/
 - Advanced AI System v2.0 — Master-Tier Intelligence for Pokémon Essentials​: https://eeveeexpo.com/resources/1825/
+- Co-op: https://eeveeexpo.com/resources/1310/

@@ -116,3 +116,9 @@ Pokemon = CHARIZARD,63
     Item = SITRUSBERRY
 Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
+#-------------------------------
+# Первая встреча на Route 0. Версия 0 — вступительный бой.
+# Дополнительные встречи добавлять как [FELIX,Felix,1], [FELIX,Felix,2] и т.д.
+[FELIX,Felix]
+LoseText = Ha! Your rhythm's not bad at all.
+Pokemon = SCRAGGY,6
