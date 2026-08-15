@@ -1,10 +1,12 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Debug map (2) - Route 1 (5)
-2,East,0,5,West,0
-# Town 1 (7) - Route 1 (5)
+# Town 1 (7) - Route 1-2 (9)
+7,East,6,9,West,0
+# Town 1 (7) - Route 1-1 (5)
 7,South,48,5,North,0
-# Town 1 (7) - Debug map (2)
-7,South,16,2,North,0
-# Town 1 (7) - Route 0 (6)
-7,North,11,6,South,0
+# Debug map (2) - Route 1-1 (5)
+2,East,0,5,West,0
+# Debug map (2) - Town 1 (7)
+2,North,0,7,South,16
+# Route 0 (6) - Town 1 (7)
+6,South,0,7,North,11
